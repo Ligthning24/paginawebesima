@@ -4,7 +4,7 @@ import NavBar from "../components/NavBar";
 
 export default function Page404() {
   return (
-    <div>
+    <>
     <header className="">
         <NavBar />
         <div className="imagen20 clase1">
@@ -16,6 +16,6 @@ export default function Page404() {
     <Link className="boton404" to='/'>Volver al inicio</Link>
     </div>
     <Footer/>
-    </div>
+    </>
   )
 }
