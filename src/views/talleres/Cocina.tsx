@@ -67,7 +67,7 @@ export default function TallerCocina() {
                     <div className="info-section">
                         <img ref={infoImageRef} src="Cocina-img.jpg" alt="Cocina" className={`info-image ${showImage ? 'hovered' : ''}`} onMouseEnter={() => setShowImage(true)}/>
                         <div ref={infoTextRef} className={`info-text ${showText ? 'hovered' : ''}`} onMouseEnter={() => { setShowText(true); setShowImage(true); }}>
-                            <h2 className="h2-taller">Cocina</h2>
+                            <h2 className="h2-taller">coosinemia</h2>
                             <p className="p-taller">La cocina es el arte y la práctica de preparar alimentos mediante la combinación de 
                                 ingredientes, técnicas culinarias y herramientas específicas, con el fin de crear platillos deliciosos y 
                                 nutritivos. Es un proceso que involucra creatividad, conocimiento y dedicación, donde cada ingrediente y 
